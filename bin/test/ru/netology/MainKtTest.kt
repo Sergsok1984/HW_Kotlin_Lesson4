@@ -14,7 +14,7 @@ class MainKtTest {
 
         val commission = calcCommission(typeCard, amountMonth, amountTransfer)
 
-        assertEquals(0, commission)
+        assertEquals(80, commission)
     }
 
     @Test
@@ -58,6 +58,6 @@ class MainKtTest {
 
         val commission = calcCommission(typeCard, amountMonth, amountTransfer)
 
-        assertEquals(35, commission)
+        assertEquals(0, commission)
     }
 }
